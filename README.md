@@ -28,11 +28,11 @@ $ npm install
 #### Start
 - Launch server (dev mode)
 ```
-$ gulp
+$ gulp server
 ```
 
 #### Usage
-> go to localhost: 3000
+> go to localhost: 1337
 
 ------------------------------
 ## Version

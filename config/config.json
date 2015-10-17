@@ -1,13 +1,19 @@
 {
-  "dev": {
-    "mongo": {
+	"dev": {
+		"sass": {
+			"inputCss": "./stylesheets/**/*.scss",
+			"outputCss": "./public/styles"
+		},
+		"js": {
+			"inputJs": "./javascripts/",
+			"outputJs": "./public/scripts/"
+		}
+
+	},
+	"prod": {},
+    "global": {
+      "angular": {
+        "name": "meanApp"
+      }
     }
-  },
-  "prod": {
-  },
-  "global": {
-    "angular": {
-      "name": "meanApp"
-    }
-  }
 }

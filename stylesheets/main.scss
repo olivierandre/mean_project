@@ -1,6 +1,7 @@
 @import 'imports/variables/_variables.scss';
-@import 'imports/variables/_bootstrap.scss';
-@import '../public/lib/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'imports/variables/_overrides.scss';
+@import '../public/lib/bootstrap/scss/bootstrap.scss';
+@import '../public/lib/font-awesome/scss/font-awesome.scss';
 
 body {
 	color: blue;
